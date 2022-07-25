@@ -1,0 +1,44 @@
+
+/*body {
+  margin: 0;
+  color: #353535;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  height: 100vh;
+}*/
+
+.pro-sidebar {
+  height: 100vh !important;
+  min-width: 5px !important;
+  width: 12vw !important;
+  position: fixed !important;
+  top: 0;
+}
+
+.App {
+  background-color: red;
+  position: relative;
+  height: 100%;
+  width: 88vw;
+  height: 100vh;
+  left: 12vw;
+}
+
+.App p {
+  margin-bottom: 0;
+}
+.AboutMe {
+  overflow: auto;
+  box-sizing: border-box;
+  display: flexbox;
+  text-align: center;
+  height: 25vh;
+  position: relative;
+  top: 5vh;
+  margin: 0px 5px 0px 5px;
+  background-color: blue;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
